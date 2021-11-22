@@ -1,10 +1,7 @@
 import React from 'react'
-import { Routes, Route, Link } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
-import LoggedinHeader from './LoggedinHeader';
-import NotLoggedinHeader from './NotLoggedinHeader';
-import Footer from './Footer';
-import Content from './Content';
+import {LoggedinHeader, NotLoggedinHeader, Footer, Content } from "./index";
 
 function App() {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Container, Grid, Typography } from '@mui/material';
-import ContentCard from './ContentCard';
+import { ContentCard } from "./index";
 
 const Content = () => (
   <>
@@ -16,7 +16,7 @@ const Content = () => (
           sx={{ mb: 3 }}
           variant="h4"
         >
-          学習している専門領域
+          今週の人気
         </Typography>
         <Grid
           container
