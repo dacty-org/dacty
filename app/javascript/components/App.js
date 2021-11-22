@@ -4,7 +4,7 @@ import './App.css'
 import LoggedinHeader from './LoggedinHeader';
 import NotLoggedinHeader from './NotLoggedinHeader';
 import Footer from './Footer';
-import ContentList from './ContentList';
+import Content from './Content';
 
 function App() {
     return (
@@ -12,9 +12,9 @@ function App() {
         {/* <NotLoggedinHeader/> */}
         <LoggedinHeader/>
             <Routes>
-                <Route exact path= "/contents" element={<ContentList />} />
-                <Route exact path= "/contents/new" element={<ContentList />} />
-                <Route path= "/contents/:id/edit" element={<ContentList />} />
+                <Route exact path= "/contents" element={<Content />} />
+                <Route exact path= "/contents/new" element={<Content />} />
+                <Route path= "/contents/:id/edit" element={<Content />} />
             </Routes>
         <Footer />
         </>
