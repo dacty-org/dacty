@@ -9,9 +9,7 @@ function App() {
         {/* <NotLoggedinHeader/> */}
         <LoggedinHeader/>
             <Routes>
-                <Route exact path= "/contents" element={<Content />} />
-                <Route exact path= "/contents/new" element={<Content />} />
-                <Route path= "/contents/:id/edit" element={<Content />} />
+                <Route exact path= "/" element={<Content />} />
             </Routes>
         <Footer />
         </>

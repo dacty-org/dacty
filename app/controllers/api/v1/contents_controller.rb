@@ -35,14 +35,6 @@ class Api::V1::ContentsController < ApplicationController
     end
   end
 
-  def destroy_all
-    if Content.destroy_all
-      head :no_content
-    else
-      render json: { error: "Failed to destroy" }, status: 422
-    end
-  end
-
   private
 
   def content_params
