@@ -16,7 +16,7 @@ const Content = () => (
           sx={{ mb: 3 }}
           variant="h4"
         >
-          学習している専門領域on
+          学習している専門領域
         </Typography>
         <Grid
           container
