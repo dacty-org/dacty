@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import {Stack, Avatar,} from '@mui/material';
+import { Stack, Avatar, Grid, Typography } from '@mui/material';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import axios from 'axios';
-import { Grid, Typography } from '@mui/material';
-import {ExpertiseTagButton, StepTagButton, HardskillTagButton, SoftskillTagButton, TopicTagButton} from "./Tags/index";
+import { ExpertiseTagButton, StepTagButton, HardskillTagButton, SoftskillTagButton, TopicTagButton } from "./Tags/index";
 import BookmarkAddOutlinedIcon from '@mui/icons-material/BookmarkAddOutlined';
 
 const ContentCard = () => {
